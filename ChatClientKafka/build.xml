@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ChatClientKafka with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="D:/Documents/workspace"/>
+    <property name="dir.jarfile" value="C:/Users/212/Desktop"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/KafkaWithFiles.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="sample.Main"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ aopalliance-repackaged-2.5.0-b32.jar argparse4j-0.7.0.jar commons-lang3-3.5.jar connect-api-1.0.0.jar connect-file-1.0.0.jar connect-json-1.0.0.jar connect-runtime-1.0.0.jar connect-transforms-1.0.0.jar guava-20.0.jar hk2-api-2.5.0-b32.jar hk2-locator-2.5.0-b32.jar hk2-utils-2.5.0-b32.jar jackson-annotations-2.9.1.jar jackson-core-2.9.1.jar jackson-databind-2.9.1.jar jackson-jaxrs-base-2.9.1.jar jackson-jaxrs-json-provider-2.9.1.jar jackson-module-jaxb-annotations-2.9.1.jar javassist-3.20.0-GA.jar javassist-3.21.0-GA.jar javax.annotation-api-1.2.jar javax.inject-1.jar javax.inject-2.5.0-b32.jar javax.servlet-api-3.1.0.jar javax.ws.rs-api-2.0.1.jar jersey-client-2.25.1.jar jersey-common-2.25.1.jar jersey-container-servlet-2.25.1.jar jersey-container-servlet-core-2.25.1.jar jersey-guava-2.25.1.jar jersey-media-jaxb-2.25.1.jar jersey-server-2.25.1.jar jetty-continuation-9.2.22.v20170606.jar jetty-http-9.2.22.v20170606.jar jetty-io-9.2.22.v20170606.jar jetty-security-9.2.22.v20170606.jar jetty-server-9.2.22.v20170606.jar jetty-servlet-9.2.22.v20170606.jar jetty-servlets-9.2.22.v20170606.jar jetty-util-9.2.22.v20170606.jar jopt-simple-5.0.4.jar kafka_2.11-1.0.0.jar kafka_2.11-1.0.0-javadoc.jar kafka_2.11-1.0.0-scaladoc.jar kafka_2.11-1.0.0-sources.jar kafka_2.11-1.0.0-test.jar kafka_2.11-1.0.0-test-sources.jar kafka-clients-1.0.0.jar kafka-log4j-appender-1.0.0.jar kafka-streams-1.0.0.jar kafka-streams-examples-1.0.0.jar kafka-tools-1.0.0.jar log4j-1.2.17.jar lz4-java-1.4.jar maven-artifact-3.5.0.jar metrics-core-2.2.0.jar osgi-resource-locator-1.0.1.jar plexus-utils-3.0.24.jar reflections-0.9.11.jar rocksdbjni-5.7.3.jar scala-library-2.11.11.jar slf4j-api-1.7.25.jar slf4j-log4j12-1.7.25.jar snappy-java-1.1.4.jar validation-api-1.1.0.Final.jar zkclient-0.10.jar zookeeper-3.4.10.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="${dir.buildfile}/out/production/ChatClientKafka"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="aopalliance-repackaged-2.5.0-b32.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="argparse4j-0.7.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="commons-lang3-3.5.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="connect-api-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="connect-file-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="connect-json-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="connect-runtime-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="connect-transforms-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="guava-20.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="hk2-api-2.5.0-b32.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="hk2-locator-2.5.0-b32.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="hk2-utils-2.5.0-b32.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-annotations-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-core-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-databind-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-jaxrs-base-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-jaxrs-json-provider-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jackson-module-jaxb-annotations-2.9.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javassist-3.20.0-GA.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javassist-3.21.0-GA.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javax.annotation-api-1.2.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javax.inject-1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javax.inject-2.5.0-b32.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javax.servlet-api-3.1.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="javax.ws.rs-api-2.0.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-client-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-common-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-container-servlet-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-container-servlet-core-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-guava-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-media-jaxb-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jersey-server-2.25.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-continuation-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-http-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-io-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-security-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-server-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-servlet-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-servlets-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jetty-util-9.2.22.v20170606.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="jopt-simple-5.0.4.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0-javadoc.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0-scaladoc.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0-sources.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0-test.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka_2.11-1.0.0-test-sources.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka-clients-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka-log4j-appender-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka-streams-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka-streams-examples-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="kafka-tools-1.0.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="log4j-1.2.17.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="lz4-java-1.4.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="maven-artifact-3.5.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="metrics-core-2.2.0.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="osgi-resource-locator-1.0.1.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="plexus-utils-3.0.24.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="reflections-0.9.11.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="rocksdbjni-5.7.3.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="scala-library-2.11.11.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="slf4j-api-1.7.25.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="slf4j-log4j12-1.7.25.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="snappy-java-1.1.4.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="validation-api-1.1.0.Final.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="zkclient-0.10.jar"/>
+            <zipfileset dir="${dir.buildfile}/libs" includes="zookeeper-3.4.10.jar"/>
+        </jar>
+    </target>
+</project>

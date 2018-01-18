@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Text fx:id="topicLabel" layoutX="21.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topic:" AnchorPane.bottomAnchor="83.2578125" AnchorPane.leftAnchor="21.0" />
+        <TextField fx:id="topicField" layoutX="70.0" layoutY="420.0" AnchorPane.bottomAnchor="78.0" AnchorPane.leftAnchor="70.0" />
+        <TextField fx:id="messageField" layoutX="307.0" layoutY="421.0" onKeyPressed="#MessageFieldOnkeyPressed" prefHeight="25.0" prefWidth="319.0" AnchorPane.bottomAnchor="77.0" AnchorPane.leftAnchor="307.0" AnchorPane.rightAnchor="124.0" />
+        <Text fx:id="messageLable" layoutX="246.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message:" AnchorPane.bottomAnchor="83.2578125" AnchorPane.leftAnchor="246.0" />
+        <Button fx:id="sendBtn" layoutX="661.0" layoutY="418.0" mnemonicParsing="false" onAction="#sendBtnAction" prefHeight="35.0" prefWidth="82.0" text="Send" AnchorPane.bottomAnchor="72.0" AnchorPane.rightAnchor="34.0" />
+        <Text fx:id="topicRegisterLabel" layoutX="14.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topic To Register:" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="14.0" />
+        <TextField fx:id="registerField" layoutX="140.0" layoutY="479.0" onKeyPressed="#RegisterFieldOnkeyPressed" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="140.0" />
+        <Button fx:id="registerBtn" layoutX="324.0" layoutY="474.0" mnemonicParsing="false" onAction="#registerTopicBtnAction" prefHeight="35.0" prefWidth="82.0" text="Register" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="324.0" />
+        <TextArea fx:id="textArea" layoutX="31.0" layoutY="54.0" prefHeight="337.0" prefWidth="713.0" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="54.0" />
+        <Button fx:id="leaveTopicBtn" layoutX="422.0" layoutY="475.0" mnemonicParsing="false" onAction="#leaveTopicBtnAction" prefHeight="35.0" prefWidth="82.0" text="Leave" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="422.0" />
+        <Button fx:id="quitBtn" layoutX="30.0" layoutY="21.0" mnemonicParsing="false" onAction="#quitBtnAction" text="Quit" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="21.0" />
+        <Text fx:id="clientNameLabel" layoutX="119.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Name: " />
+    </children>
+</AnchorPane>

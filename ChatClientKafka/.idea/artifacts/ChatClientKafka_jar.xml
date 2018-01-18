@@ -1,0 +1,138 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChatClientKafka:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatClientKafka_jar</output-path>
+    <root id="archive" name="ChatClientKafka.jar">
+      <element id="module-output" name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka-streams-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="argparse4j-0.7.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="reflections-0.9.11.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0-test.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="log4j-1.2.17.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-io-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-client-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="commons-lang3-3.5.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="scala-library-2.11.11.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javax.ws.rs-api-2.0.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="osgi-resource-locator-1.0.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-media-jaxb-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="lz4-java-1.4.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-continuation-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0-test-sources.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="connect-api-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="slf4j-api-1.7.25.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-server-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-container-servlet-core-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-core-2.9.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0-sources.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="zookeeper-3.4.10.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-guava-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="snappy-java-1.1.4.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-jaxrs-base-2.9.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="connect-file-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-annotations-2.9.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-container-servlet-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-servlets-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/aopalliance-repackaged-2.5.0-b32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/argparse4j-0.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/commons-lang3-3.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/connect-api-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/connect-file-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/connect-json-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/connect-runtime-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/connect-transforms-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/guava-20.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/hk2-api-2.5.0-b32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/hk2-locator-2.5.0-b32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/hk2-utils-2.5.0-b32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-annotations-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-core-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-databind-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-jaxrs-base-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-jaxrs-json-provider-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-module-jaxb-annotations-2.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javassist-3.20.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javassist-3.21.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javax.annotation-api-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javax.inject-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javax.inject-2.5.0-b32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/javax.ws.rs-api-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-client-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-common-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-container-servlet-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-container-servlet-core-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-guava-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-media-jaxb-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jersey-server-2.25.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-continuation-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-http-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-io-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-security-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-server-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-servlet-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-servlets-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-util-9.2.22.v20170606.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jopt-simple-5.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.11-1.0.0-test.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka_2.11-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-clients-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-log4j-appender-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-streams-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-streams-examples-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kafka-tools-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/lz4-java-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/maven-artifact-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/metrics-core-2.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/osgi-resource-locator-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/plexus-utils-3.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/reflections-0.9.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/rocksdbjni-5.7.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/scala-library-2.11.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-log4j12-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/snappy-java-1.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/validation-api-1.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/zkclient-0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/zookeeper-3.4.10.jar" path-in-jar="/" />
+      <element id="library" level="module" name="jetty-servlet-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="plexus-utils-3.0.24.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0-javadoc.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka-clients-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-security-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="validation-api-1.1.0.Final.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka-streams-examples-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="guava-20.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="aopalliance-repackaged-2.5.0-b32.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka_2.11-1.0.0-scaladoc.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-util-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-server-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jopt-simple-5.0.4.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javax.inject-2.5.0-b32.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="rocksdbjni-5.7.3.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jersey-common-2.25.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-jaxrs-json-provider-2.9.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="hk2-api-2.5.0-b32.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="hk2-locator-2.5.0-b32.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-databind-2.9.1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javassist-3.20.0-GA.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jetty-http-9.2.22.v20170606.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javassist-3.21.0-GA.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javax.annotation-api-1.2.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="connect-json-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javax.servlet-api-3.1.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="hk2-utils-2.5.0-b32.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="maven-artifact-3.5.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="connect-transforms-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="zkclient-0.10.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka-tools-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="connect-runtime-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="kafka-log4j-appender-1.0.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="metrics-core-2.2.0.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="javax.inject-1.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="slf4j-log4j12-1.7.25.jar" module-name="ChatClientKafka" />
+      <element id="library" level="module" name="jackson-module-jaxb-annotations-2.9.1.jar" module-name="ChatClientKafka" />
+    </root>
+  </artifact>
+</component>

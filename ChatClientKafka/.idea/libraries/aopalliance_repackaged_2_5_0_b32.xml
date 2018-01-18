@@ -1,0 +1,75 @@
+<component name="libraryTable">
+  <library name="aopalliance-repackaged-2.5.0-b32">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/aopalliance-repackaged-2.5.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/argparse4j-0.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/connect-api-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/connect-file-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/connect-json-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/connect-runtime-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/connect-transforms-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/guava-20.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hk2-api-2.5.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hk2-locator-2.5.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hk2-utils-2.5.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-annotations-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-jaxrs-base-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-jaxrs-json-provider-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-module-jaxb-annotations-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javassist-3.21.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.inject-2.5.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-client-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-common-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-container-servlet-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-container-servlet-core-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-guava-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-media-jaxb-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jersey-server-2.25.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-continuation-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-http-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-io-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-security-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-server-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-servlet-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-servlets-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jetty-util-9.2.22.v20170606.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jopt-simple-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka_2.11-1.0.0-test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka_2.11-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka-clients-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka-log4j-appender-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka-streams-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka-streams-examples-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kafka-tools-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/lz4-java-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/maven-artifact-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/metrics-core-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/plexus-utils-3.0.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/reflections-0.9.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/rocksdbjni-5.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/scala-library-2.11.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/snappy-java-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/zkclient-0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/zookeeper-3.4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/kafka_2.11-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/kafka_2.11-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
