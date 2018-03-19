@@ -11,7 +11,7 @@
 
 The file contains only one line, the line must contain only one broker ip and port. Ip is in ipv4 format only after the ip must be &quot;:&quot; character then the port number e.g. 123.123.123.123:9090. This is the only characters in the line. Rest of the file will be ignored. The config file must be located in the same project or jar file in order to run the chat client.
 
-User Interface:
+### User Interface:
 
 The user interface is implemented with javafx. When u open the client a login window will appear. In the login window the user must type username with **no space**. Empty username is **not allowed**, no password requierd.
 
