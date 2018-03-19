@@ -29,10 +29,10 @@ The next line you have one input box and two Button register and leave, you can 
 
 Required files (can be found in kafka broker\_zookeeper folder)
 
-  a. KB0.config
-  b. KB1.config
-  c. KB2.config
-  d. ZS.config
+  a. KB0.config<br>
+  b. KB1.config<br>
+  c. KB2.config<br>
+  d. ZS.config<br>
 
 In order to run Kafka, the zookeeper config file need to contain the port number the Kafka zookeeper listen on. By default, the port is 2181 in general the port can stay the same.
 
